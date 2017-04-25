@@ -1,0 +1,19 @@
+
+          "extensionProfile": {
+            "extensions": [
+              {
+                "name": "lapextension",
+                "properties": {
+                  "publisher": "Microsoft.OSTCExtensions",
+                  "type": "CustomScriptForLinux",
+                  "typeHandlerVersion": "1.3",
+                  "autoUpgradeMinorVersion": true,
+                  "settings": {
+                    "fileUris": [
+                      "https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/201-vmss-lapstack-autoscale/install_lap.sh"
+                    ],
+                    "commandToExecute": "bash install_lap.sh"
+                  }
+                }
+              }
+
